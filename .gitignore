@@ -28,3 +28,5 @@ java/.settings/
 *_creds
 *.key
 *.pem
+secrets/consumer/**
+secrets/producer/**
