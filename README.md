@@ -11,7 +11,7 @@ all other containers outside the compose file could access Kafka and Zookeeper n
 being attached to this network. For example
 
 ```
-docker run -it --network kafka-cluster-network confluentinc/cp-kafka:5.0.1 kafka-topics --zookeeper \ zookeeper-1:22181 --list
+docker run -it --network kafka-cluster-network confluentinc/cp-kafka:5.5.1 kafka-topics --zookeeper \ zookeeper-1:22181 --list
 ```
 
 ### Setup environment variables

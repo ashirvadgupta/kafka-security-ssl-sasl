@@ -2,7 +2,7 @@
 version: '3.5'
 services:
   zookeeper-1:
-    image: confluentinc/cp-zookeeper:5.0.1
+    image: confluentinc/cp-zookeeper:5.5.1
     hostname: zookeeper-1
     container_name: zookeeper-1
     ports:
@@ -18,7 +18,7 @@ services:
       - kafka-cluster-network
 
   zookeeper-2:
-    image: confluentinc/cp-zookeeper:5.0.1
+    image: confluentinc/cp-zookeeper:5.5.1
     hostname: zookeeper-2
     container_name: zookeeper-2
     ports:
@@ -35,7 +35,7 @@ services:
 
 
   zookeeper-3:
-    image: confluentinc/cp-zookeeper:5.0.1
+    image: confluentinc/cp-zookeeper:5.5.1
     hostname: zookeeper-3
     container_name: zookeeper-3
     ports:
@@ -52,7 +52,7 @@ services:
 
 
   kafka-broker-1:
-    image: confluentinc/cp-kafka:5.0.1
+    image: confluentinc/cp-kafka:5.5.1
     hostname: kafka-broker-1
     container_name: kafka-broker-1
     ports:
@@ -81,7 +81,7 @@ services:
 
 
   kafka-broker-2:
-    image: confluentinc/cp-kafka:5.0.1
+    image: confluentinc/cp-kafka:5.5.1
     hostname: kafka-broker-2
     container_name: kafka-broker-2
     ports:
@@ -110,7 +110,7 @@ services:
 
 
   kafka-broker-3:
-    image: confluentinc/cp-kafka:5.0.1
+    image: confluentinc/cp-kafka:5.5.1
     hostname: kafka-broker-3
     container_name: kafka-broker-3
     ports:
